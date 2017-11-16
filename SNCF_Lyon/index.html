@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+	    <!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Horaires train Gare de Lyon</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="sncf horaires gare de Lyon">
+		<meta name="keywords" content="SNCF">
+		<meta name="author" content="Joubert's Bock">
+		
+		<!-- ==============================================
+		Favicons
+		=============================================== --> 
+		
+	    <!-- ==============================================
+		CSS
+		=============================================== -->
+		<!-- Style-->
+		<link type="text/css" href="style.css" rel="stylesheet" />
+		<link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
+		<link href="http://allfont.net/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+
+		<!-- ==============================================
+		Feauture Detection
+		=============================================== -->
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->	
+		
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<img class="logo" src="logo.png" alt="logo nextdoor"/>
+
+			<div class="Trains-au-dpart-L">
+				<span class="text-style-1">Trains au départ</span> | Lyon - Part-Dieu
+
+			</div>	
+
+			<div class="tableau">
+				<div class="largeur titres">
+					<div class="inline x x1">
+						<span class="titreTab1 center">heure</span>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab1  center destination">destination</span>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab1 center">train</span>
+					</div>
+					<div class="inline z">
+						<span class="titreTab1  center info">informations	</span>
+					</div>
+					<div class="line">
+					</div>
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure0 "></span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare  gare0"></span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train  train0"></span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge  info0"></span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure1"></span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare1"></span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train1"></span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info1"></span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure2"></span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare2"></span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train2"></span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info2"></span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure3"></span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare3"></span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train3"></span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info3"></span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure4"></span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare4"></span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train4"></span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info4"></span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure5">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare5">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train5">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info5">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure6">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare6">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train6">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info6">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure7">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare7">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train7">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info7">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure8">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare8">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train8">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info8">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure9">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare9">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train9">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info9">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure10">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare10">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train10">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info10">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure11">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare11">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train11">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info11">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure12">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare12">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train12">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info12">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure13">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare13">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train13">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info13">1</span>
+					</div>
+					<div class="line">
+					</div>
+
+				</div>
+				<div class="largeur contenu">
+					<div class="inline x x1">
+						<span class="titreTab heure center heure14">1</span>
+						<div class="line-copy l1 left">
+						</div>
+					</div>
+					<div class="inline y y1">
+						<span class="titreTab destination center gare gare14">1</span>
+						<div class="line-copy l1">
+						</div>
+					</div>
+					<div class="inline y y2">
+						<span class="titreTab center train train14">1</span>
+						<div class="line-copy l2">
+						</div>
+					</div>
+					<div class="inline z">
+						<span class="titreTab info center rouge info14">1</span>
+					</div>
+					
+
+				</div>
+
+
+
+
+			</div>
+
+		</div>
+	</body>
+
+	</html>
